@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.miama-font{
+  font-family: 'Miama', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .inter-fonts{
   font-family: "Inter", sans-serif;
@@ -12,7 +20,7 @@
 }
 
 header{
-  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%) */
+  background-color: linear-gradient(180.00deg, rgb(17, 17, 17) 0%,rgba(119, 119, 119, 0) 100%);
   background-color: black;
   
 }
@@ -71,4 +79,137 @@ header{
   border-radius: 46px;
   color: #ffffff;
   padding: 8px 20px 8px 20px;
+}
+
+.banta{
+  display: flex;
+  gap: 3.375rem;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.banner{
+  color: white;
+  width: 32.5rem;
+  height: 27.5rem;
+}
+
+.ban-1{
+  font-size: 4.875rem;
+  font-weight: 900;
+  width: 32.5rem;
+  height: 17.625rem;
+}
+
+.para{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+  width: 32.5rem;
+  height: 3rem;
+}
+
+.btn{
+  width: 28.875rem;
+  height: 3.375rem;
+}
+
+.btn-1{
+  background-color: #E6533C;
+  border-radius: 2.625rem;
+  padding: 1rem 2.5rem;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-2{
+  /* background-color: black; */
+  border: 1px solid white;
+  border-radius: 2.625rem;
+  padding: 1rem 2.5rem;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.card-1{
+  position: absolute;
+  width: 12.875rem;
+  height: 6rem;
+  left: 856px;
+  top: 630px;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.golla{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgb(230, 83, 60);
+}
+
+.gollar-pashe{
+  /* width: 6.75rem;
+  height: 3.5rem; */
+}
+
+.card-num{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.card-lekha{
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(239, 237, 232, 0.65);
+  margin-top: 15px;
+}
+
+.card-2{
+  position: absolute;
+  width: 12.063rem;
+  height: 6.125rem;
+  left: 1200px;
+  top: 330px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  background: rgba(255, 255, 255, 0.1);
+  padding-left: 1.875rem;
+  padding-bottom: 1.5rem;
+}
+
+.card-num-2{
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.hamburger {
+  display: none;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 576px) {
+  .links {
+      display: none;
+  }
+  
+  .hamburger {
+      display: block; 
+  }
 }
