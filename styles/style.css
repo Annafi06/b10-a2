@@ -1,119 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-.miama-font{
-  font-family: 'Miama', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-.inter-fonts{
+body {
+  display: flex;
+  flex-direction: column;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
 
-.df{
+header, main, footer {
+  width: 100%;
+}
+
+header {
+  /* background-color: black; */
+  background: linear-gradient(180deg, rgb(17, 17, 17)100%,rgba(119, 119, 119, 0) 100%);
+  
+}
+
+main {
+  flex-grow: 1;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer {
+  background-color: black;
+}
+
+.miama-font {
+  font-family: 'Miama', sans-serif;
+}
+
+.df {
   display: flex;
 }
 
-header{
-  background-color: linear-gradient(180.00deg, rgb(17, 17, 17) 0%,rgba(119, 119, 119, 0) 100%);
-  background-color: black;
-  
-}
-
-.navbar{
- /* justify-content: space-between;
- align-items: center; */
+.navbar {
   margin-left: 11.875rem;
   margin-right: 11.875rem;
   margin-top: 3.563rem;
- }
-
-.bhitre{
-  justify-content: space-between;
-  align-items: center;
-  
-  
 }
 
-.fitness{
+.bhitre {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fitness {
   font-size: 36px;
   font-weight: 800;
   color: #E6533C;
 }
 
-.menu{
+.menu {
   font-size: 18px;
   text-decoration: none;
-  text-decoration-line: none;
   color: #ffffff;
-  /* box-sizing: border-box;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 39px; */
 }
 
-.links{
+.links {
   color: #ffffff;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
   padding: 10px;
 }
 
-.nav-item{
+.nav-item {
   list-style: none;
   margin-right: 30px;
 }
 
-.nav-link{
+.nav-link {
   text-decoration: none;
-  color:#ffffff;
+  color: #ffffff;
 }
 
-.home{
+.home {
   background-color: #E6533C;
   font-weight: 600;
   border-radius: 46px;
   color: #ffffff;
-  padding: 8px 20px 8px 20px;
+  padding: 8px 20px;
 }
 
-.banta{
+.banta {
   display: flex;
   gap: 3.375rem;
   justify-content: center;
   justify-content: space-evenly;
 }
 
-.banner{
+.banner {
   color: white;
   width: 32.5rem;
   height: 27.5rem;
 }
 
-.ban-1{
+.ban-1 {
   font-size: 4.875rem;
   font-weight: 900;
-  width: 32.5rem;
-  height: 17.625rem;
+  margin-bottom: 0;
 }
 
-.para{
+.para {
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
-  width: 32.5rem;
-  height: 3rem;
+  margin-bottom: 50px;
 }
 
-.btn{
+.btn {
   width: 28.875rem;
   height: 3.375rem;
 }
 
-.btn-1{
+.btn-1 {
   background-color: #E6533C;
   border-radius: 2.625rem;
   padding: 1rem 2.5rem;
@@ -123,8 +136,7 @@ header{
   text-decoration: none;
 }
 
-.btn-2{
-  /* background-color: black; */
+.btn-2 {
   border: 1px solid white;
   border-radius: 2.625rem;
   padding: 1rem 2.5rem;
@@ -134,15 +146,17 @@ header{
   text-decoration: none;
 }
 
-.card-1{
+.card-1, .card-2 {
   position: absolute;
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+}
+
+.card-1 {
   width: 12.875rem;
   height: 6rem;
   left: 856px;
   top: 630px;
-  border-radius: 0.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   display: flex;
   justify-content: center;
@@ -150,50 +164,33 @@ header{
   gap: 12px;
 }
 
-.golla{
+.golla {
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background: rgb(230, 83, 60);
 }
 
-.gollar-pashe{
-  /* width: 6.75rem;
-  height: 3.5rem; */
-}
-
-.card-num{
-  font-size: 1.5rem;
-  font-weight: 900;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-
-.card-lekha{
-  font-size: 1rem;
-  font-weight: 400;
-  color: rgba(239, 237, 232, 0.65);
-  margin-top: 15px;
-}
-
-.card-2{
-  position: absolute;
+.card-2 {
   width: 12.063rem;
   height: 6.125rem;
   left: 1200px;
   top: 330px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  backdrop-filter: blur(20px);
   background: rgba(255, 255, 255, 0.1);
   padding-left: 1.875rem;
   padding-bottom: 1.5rem;
 }
 
-.card-num-2{
+.card-num, .card-num-2 {
   font-size: 1.5rem;
   font-weight: 900;
   color: #ffffff;
+}
+
+.card-lekha {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgba(239, 237, 232, 0.65);
 }
 
 .hamburger {
@@ -203,13 +200,67 @@ header{
   cursor: pointer;
 }
 
+.habit {
+  width: 65.25rem;
+  /* Removed the height property to avoid large gaps */
+  margin-bottom: 20px; /* Added a small margin for spacing */
+}
+
+.kotha {
+  color: white;
+  margin-bottom: 20px; /* Reduced margin to close the gap */
+}
+
+.habits {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.para-1 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ovash {
+  width: 65.25rem;
+  /* Removed the height property to avoid large gaps */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin-bottom: 100px;
+}
+
+.ovash-gula {
+  width: 14.438rem;
+  height: 17.125rem;
+  text-align: center;
+}
+
+.golla-sobi{
+  border-radius: 50%;
+}
+
+.ovash-type{
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.ovash-para{
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.875rem;
+}
+
 /* Responsive styles */
 @media screen and (max-width: 576px) {
   .links {
-      display: none;
+    display: none;
   }
-  
+
   .hamburger {
-      display: block; 
+    display: block;
   }
 }
